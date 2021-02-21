@@ -4,9 +4,10 @@
 
 .top-page-header {
   width: 100vw;
-  padding: 2vh 15vw;
+  padding: 15vh 15vw;
   display: flex;
   flex-direction: column;
+  background-image: image-url('furima-header01.png');
 }
 
 .search-bar-contents {
@@ -81,24 +82,33 @@
 .user-store {
   text-decoration: none;
   margin-right: 3vw;
-  color: #333333;
+  color: white;
   font-weight: bold;
+  font-size: 30px;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
 }
 
 
 .logout {
   text-decoration: none;
-  color: #333333;
+  color: white;
+  font-size: 30px;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
 }
 
 .login {
   text-decoration: none;
   line-height: 32px;
   margin-right: 3vw;
-  color: #333333;
+  color: white;
+  font-size: 30px;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+
 }
 
 .sign-up {
   text-decoration: none;
-  color: #333333;
+  color: white;
+  font-size: 30px;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
 }

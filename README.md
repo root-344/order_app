@@ -24,7 +24,7 @@
 | product                | string     | null: false                    |
 | user                   | reference  | null: false, foreign_key: true |
 | description            | text       | null: false                    |
-| states                 | test       | null: false                    |
+| states                 | text       | null: false                    |
 | shipping_fee_id        | integer    | null: false                    |
 | region_id              | integer    | null: false                    |
 | eta_id                 | integer    | null: false                    |
