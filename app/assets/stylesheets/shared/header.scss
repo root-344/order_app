@@ -4,10 +4,10 @@
 
 .top-page-header {
   width: 100vw;
-  padding: 15vh 15vw;
+  padding: 20vh 15vw;
   display: flex;
   flex-direction: column;
-  background-image: image-url('furima-header01.png');
+  background-image: image-url('farmers-salad-2332580_1920.jpg');
 }
 
 .search-bar-contents {
@@ -38,7 +38,7 @@
   width: 5vh;
   border: 0;
   cursor: pointer;
-  background-color: #3ccace;
+  background-color: lawngreen;
   padding: 8px;
 }
 
@@ -111,4 +111,12 @@
   color: white;
   font-size: 30px;
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+}
+.top-page {
+  text-decoration: none;
+  margin-left: 3vw;
+  color: white;
+  font-size: 30px;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+
 }
