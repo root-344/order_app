@@ -1,7 +1,5 @@
 <div class="items-sell-contents">
-  <header class="items-sell-header">
-    <%= link_to image_tag('ecalbt012_004.jpg' , size: '200x50'), "/" %>
-  </header>
+   <%= render "shared/second-header" %>
   <div class="items-sell-main">
     <h2 class="items-sell-title">商品の情報を入力</h2>
     <%= form_with model: @item, local: true do |f| %>
@@ -89,8 +87,5 @@
     </div>
   </div>
   <% end %>
-
-  <footer class="items-sell-footer">
-    <%= link_to image_tag('ecalbt012_004.jpg' , size: '185x50'), "/" %>
-  </footer>
+  <%= render "shared/second-footer" %>
 </div>
