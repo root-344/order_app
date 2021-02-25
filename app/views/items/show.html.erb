@@ -1,6 +1,5 @@
-<%= render "shared/header" %>
-
 <div class="item-show">
+ <%= render "shared/second-header" %>
   <div class="item-box">
     <h2 class="name">
       <%= "#{@item.product}" %>
@@ -10,12 +9,12 @@
       <% if @item.order.present? %>
        <div class="sold-out">
         <span>Sold Out!!</span>
-      </div>
+       </div>
       <% end %>
     </div>
     <div class="item-price-box">
       <span class="item-price">
-      <%= "¥#{@item.price}" %>
+        <%= "¥#{@item.price}" %>
       </span>
       <span class="item-postage">
         <%= "#{@item.shipping_fee.name}" %>
@@ -65,22 +64,14 @@
       <textarea class="comment-text"></textarea>
       <button type="submit" class="comment-btn">
         <%= image_tag "comment.png" ,class:"comment-flag-icon" ,width:"20",height:"25"%>
-        <span>コメントする<span>
+         <span>コメントする<span>
       </button>
     </form>
-  </div>
-  <div class="links">
-    <a href="#" class="change-item-btn">
-      ＜ 前の商品
-    </a>
-    <a href="#" class="change-item-btn">
-      後ろの商品 ＞
-    </a>
-  </div>
+  </div> 
   <%# 詳細ページで表示されている商品のカテゴリー名を表示しましょう %>
   <%#<a href="#" class="another-item"><%= "商品のカテゴリー名" %>
   <%#をもっと見る</a>
   <%# //詳細ページで表示されている商品のカテゴリー名を表示しましょう %>
+  <%= render "shared/second-footer" %>
 </div>
 
-<%= render "shared/footer" %>

@@ -1,8 +1,5 @@
 <div class="items-sell-contents">
-  <header class="items-sell-header">
-    <%= link_to image_tag('furima-logo-color.png' , size: '185x50'), "/" %>
-
-  </header>
+   <%= render "shared/second-header" %>
   <div class="items-sell-main">
     <h2 class="items-sell-title">商品の情報を入力</h2>
     <%= form_with model: @item, local: true do |f| %>
@@ -49,7 +46,6 @@
     <div class="items-detail">
       <div class="weight-bold-text question-text">
         <span>配送について</span>
-        <a class="question" href="#">?</a>
       </div>
       <div class="form">
         <div class="weight-bold-text">
@@ -91,11 +87,5 @@
     </div>
   </div>
   <% end %>
-
-  <footer class="items-sell-footer">
-    <%= link_to image_tag('furima-logo-color.png' , size: '185x50'), "/" %>
-    <p class="inc">
-      ワケアリ
-    </p>
-  </footer>
+  <%= render "shared/second-footer" %>
 </div>
