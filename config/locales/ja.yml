@@ -1,0 +1,30 @@
+ja:
+ activerecord:
+   attributes:
+     user:
+       store: 登録名
+       last_name: 姓
+       last_name_kana: 姓(カナ)
+       first_name: 名
+       first_name_kana: 名(カナ)
+     item:
+       product: 商品名
+       image: 画像
+       description: 商品説明
+       states: 商品状態
+       shipping_fee_id: 配送料負担
+       region_id: 発送元地域
+       eta_id: 配送日数
+       price: 値段
+     
+ activemodel:
+   attributes:
+     order_address:
+       zip: 郵便番号
+       city: 市区町村
+       address: 番地
+       building: 建物名
+       phone: 電話番号
+       token: クレジットカード情報
+       region_id: 都道府県
+      
