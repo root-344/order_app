@@ -62,14 +62,13 @@
    <% if user_signed_in? %>
     <%= form_with(model: [@item, @comment], local: true) do |form| %>
         <%= form.text_area :text, placeholder: "コメントする", class: 'comment-text', rows: "2" %>
-        <%= form.submit "コメントする", class: 'comment-btn' %>
+        <%= form.submit "コメント送信", class: 'comment-btn' %>
     <% end %>
    <% else %>
-    <strong><p>※※※ コメントの投稿には新規登録/ログインが必要です ※※※</p>
+    <strong><p>※※ コメントの投稿には新規登録/ログインが必要です ※※</p>
       </strong>
    <% end %>
      <div class="comments">
-      <h4>＜コメント一覧＞</h4>
       <% @comments.each do |comment| %>
         <p>
           <strong><%= link_to comment.user.store, "/users/#{comment.user_id}" %>：</strong>
@@ -82,6 +81,7 @@
   <%#<a href="#" class="another-item"><%= "商品のカテゴリー名" %>
   <%#をもっと見る</a>
   <%# //詳細ページで表示されている商品のカテゴリー名を表示しましょう %>
-  <%= render "shared/second-footer" %>
 </div>
+<footer>
+</footer>
 

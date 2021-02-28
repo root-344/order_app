@@ -7,6 +7,7 @@
   flex-direction: column;
   min-width: 500px;
   background-image: image-url('farmers-salad-2332580_1920.jpg');
+  background-size: cover;
 }
 
 .transaction-main {
@@ -14,6 +15,8 @@
   width: 60vw;
   min-width: 450px;
   padding: 10vh 10vw;
+  margin: 5vh;
+  border: 3px solid black;
 }
 
 .transaction-title-text {

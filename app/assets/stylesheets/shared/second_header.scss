@@ -1,6 +1,6 @@
 .second-header {
-  width: 100%;
-  min-width: 800px;
+  width: 100vw;
+  min-width: 500px;
   height: 130px;
   display: flex;
   align-items: center;
@@ -10,4 +10,5 @@
 .second-logo {
   width: 185px;
   height: 49px;
+  border: 5px double orange;
 }

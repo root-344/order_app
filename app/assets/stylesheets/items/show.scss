@@ -8,6 +8,7 @@
   align-items: center;
   padding: 0, 0;
   background-image: image-url('farmers-salad-2332580_1920.jpg');
+  background-size: cover;
 }
 
 .item-box {
@@ -18,6 +19,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 3px solid black;
 }
 
 .item-box>.name {
@@ -82,6 +84,7 @@
 .detail-table {
   margin-bottom: 30px;
   width: 50vw;
+  border: 2px solid black;
 
 }
 
@@ -144,17 +147,19 @@
 
 .comment-box {
   width: 40vw;
-  background-color: #fff;
+  background-color: white;
   margin: 5vh 0;
   text-align: center;
+  border: 2px solid black;
 }
 
 .comment-text {
   width: 100%;
   height: 100px;
   padding: 10px;
-  border: solid 2px #dedede;
+  border-bottom: solid 2px black;
   resize: none;
+
 }
 
 .comment-warn {

@@ -1,7 +1,7 @@
 <%# cssは商品出品のものを併用しています。
 app/assets/stylesheets/items/new.css %>
 <div class="items-sell-contents">
-<%= render "shared/second-header" %>
+ <%= render "shared/second-header" %>
   <div class="items-sell-main">
     <h2 class="items-sell-title">商品の情報を入力</h2>
     <%= form_with model: @item, local: true do |f| %>
@@ -102,5 +102,6 @@ app/assets/stylesheets/items/new.css %>
     <%# /下部ボタン %>
   </div>
   <% end %>
-   <%= render "shared/second-footer" %>
 </div>
+<footer>
+</footer>
