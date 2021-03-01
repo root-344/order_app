@@ -12,9 +12,9 @@ class Item < ApplicationRecord
     validates :product
     validates :description
     validates :states
-    validates :shipping_fee_id, numericality: { other_than: 1 }
-    validates :region_id, numericality: { other_than: 1 }
-    validates :eta_id, numericality: { other_than: 1 }
+    validates :shipping_fee_id, numericality: { other_than: 1 , message: "を選んで下さい" }
+    validates :region_id, numericality: { other_than: 1, message: "を選んで下さい" }
+    validates :eta_id, numericality: { other_than: 1, message: "を選んで下さい" }
     validates :price, format: {with: /\A[0-9]+\z/ }, numericality: { only_integer: true,
       greater_than: 0, less_than: 10000000 }
     validates :image
