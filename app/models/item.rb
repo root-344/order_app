@@ -19,4 +19,12 @@ class Item < ApplicationRecord
       greater_than: 0, less_than: 10000000 }
     validates :image
   end
+  
+  def self.search(search)
+    if search != ""
+      Item.where('product LIKE(?)', "%#{search}%")
+    else
+      Item.all
+    end
+  end
 end

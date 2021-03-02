@@ -17,11 +17,6 @@
   align-items: center;
 }
 
-.furima-icon {
-  width: 10vw;
-  margin-right: 10vw;
-}
-
 .search-form {
   width: 65vw;
   height: 5vh;
@@ -29,8 +24,8 @@
   margin-bottom: 5px;
 }
 
-.search-form>.input-box {
-  width: 100%;
+.input-box {
+  width: 100vw;
   height: 5vh;
   padding-left: 10px;
 }
@@ -44,7 +39,10 @@
 }
 
 .search-icon {
-  width: 100%;
+  width: 5vw;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: lawngreen;
 }
 
 .nav {
