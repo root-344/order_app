@@ -60,6 +60,11 @@
   flex-wrap: wrap;
   padding: 2vh 0;
 }
+.images {
+  width: 20vw;
+  height: 20vh;
+  object-fit: contain;
+}
 
 .click-upload {
   margin: 15px 0;
