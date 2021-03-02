@@ -1,16 +1,15 @@
-<div class="items-sell-contents">
+<div class="items-search">
    <%= render "shared/second-header" %>
    <%= form_with(url: search_items_path, local: true, method: :get, class: "search-form") do |form| %>
       <%= form.text_field :keyword, placeholder: "キーワードから探す", classs: "input-box" %>
       <%= form.submit "検索", class: "search-icon" %>
    <% end %>
  <div class="items-sell-main">
-  
-  <% @items.each do |item| %>
-        <%= link_to item_path(item.id) do %>
+   <% @items.each do |item| %>
+      <%= link_to item_path(item.id) do %>
         <div class='item-img-content'>
           <%= image_tag item.image, class: "item-img" %>
-        <% end %>
+        </div>
         <div class='item-info'>
           <h3 class='item-name'>
             <%= "#{item.product}" %>
@@ -19,7 +18,7 @@
             <span><%= "#{item.price}" %>円<br><%= "#{item.shipping_fee.name}" %></span>
           </div>
         </div>
-  <% end %>
-
+      <% end %>
+   <% end %>
 <footer>
 </footer>
