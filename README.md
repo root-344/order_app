@@ -15,9 +15,9 @@
  ### ログイン情報（テスト用）
 
   ###  ・ 出品者用Eメール : test7@gmail.com
-  ###  ・ 出品者パスワード : test1
+  ###  ・ 出品者パスワード : testtest1
   ###  ・ 購入者用Eメール : test6@gmail.com
-  ###  ・ 購入者パスワード : test1
+  ###  ・ 購入者パスワード : testtest1
 
 # 制作背景
 
@@ -31,8 +31,10 @@
 
 
  ## 新規登録画面
+  ![](https://i.gyazo.com/9353dab271e56d90ce34992681a301b4.jpg)
 
  ## 詳細表示画面
+  https://user-images.githubusercontent.com/77102175/109824990-b8042380-7c7c-11eb-82bc-4bfebe75148a.mp4
 
  ## 編集・削除画面
 
