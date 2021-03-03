@@ -34,7 +34,10 @@
   ![](https://i.gyazo.com/9353dab271e56d90ce34992681a301b4.jpg)
 
  ## 詳細表示画面
-  https://user-images.githubusercontent.com/77102175/109824990-b8042380-7c7c-11eb-82bc-4bfebe75148a.mp4
+  ![](https://i.gyazo.com/f259456b966403cfa3e5f802c3e90a89.jpg)
+
+  ![](https://i.gyazo.com/dd2ada73ca8153091fac5b4b036d14a1.jpg)
+
 
  ## 編集・削除画面
 
