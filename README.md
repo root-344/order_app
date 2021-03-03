@@ -27,7 +27,8 @@
 # DEMO
   
  ## トップページ（商品一覧画面） 
-  ![image](https://gyazo.com/2a2c0bd68023e59db8acc0c3ef141719)
+  ![](https://i.gyazo.com/dd313e12d6cbd0ebfc3a908f42dbf28a.jpg)
+
 
  ## 新規登録画面
 
