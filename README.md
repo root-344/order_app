@@ -46,10 +46,11 @@
 
   ![](https://i.gyazo.com/65f47e907839dc8a2668db18c8d101b1.jpg)
 
-
- ## 検索動画
+ ## 検索一覧画面
+  ![](https://i.gyazo.com/1e38339f2f9f8c4135f70759c52a4895.jpg)
 
  ## コメント投稿動画
+  ![](https://i.gyazo.com/7e184e31f6bece435d7c20d71fd3c3fd.jpg)
 
 
 # 工夫したポイント
