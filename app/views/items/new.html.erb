@@ -13,7 +13,7 @@
       </div>
       <div class="click-upload">
         <p>
-          クリックしてファイルをアップロード
+          クリックしてファイルを選択
         </p>
         <%= f.file_field :image, id:"item-image" %>
       </div>
@@ -24,13 +24,13 @@
         商品名
         <span class="indispensable">必須</span>
       </div>
-      <%= f.text_area :product, class:"items-text", id:"item-name", placeholder:"商品名（必須 40文字まで)", maxlength:"40" %>
+      <%= f.text_area :product, class:"items-text", id:"item-name", placeholder:"商品名（ 40文字まで)", maxlength:"40" %>
       <div class="items-explain">
         <div class="weight-bold-text">
           商品の説明
           <span class="indispensable">必須</span>
         </div>
-        <%= f.text_area :description, class:"items-text", id:"item-info", placeholder:"商品の説明（必須 1,000文字まで）例）" ,rows:"7" ,maxlength:"1000" %>
+        <%= f.text_area :description, class:"items-text", id:"item-info", placeholder:"商品の説明（ 1,000文字まで）" ,rows:"7" ,maxlength:"1000" %>
       </div>
     </div>
     <div class="items-detail">
@@ -39,7 +39,7 @@
           商品の状態
           <span class="indispensable">必須</span>
         </div>
-        <%= f.text_area :states, class:"items-text", id:"item-sales-status", placeholder:"商品の状態（必須 1,000文字まで）例)" ,rows:"7" ,maxlength:"1000" %>
+        <%= f.text_area :states, class:"items-text", id:"item-sales-status", placeholder:"商品の状態（ 1,000文字まで）" ,rows:"7" ,maxlength:"1000" %>
         
       </div>
     </div>
