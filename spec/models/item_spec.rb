@@ -35,17 +35,17 @@ RSpec.describe Item, type: :model do
       it 'shippind_fee_idについての情報が必須であること' do
         @item.shipping_fee_id = 1
         @item.valid?
-        expect(@item.errors.full_messages).to include("Shipping fee must be other than 1")
+        expect(@item.errors.full_messages).to include('Shipping fee must be other than 1')
       end
       it 'reion_idについての情報が必須であること' do
         @item.region_id = 1
         @item.valid?
-        expect(@item.errors.full_messages).to include("Region must be other than 1")
+        expect(@item.errors.full_messages).to include('Region must be other than 1')
       end
       it 'eta_idについての情報が必須であること' do
         @item.eta_id = 1
         @item.valid?
-        expect(@item.errors.full_messages).to include("Eta must be other than 1")
+        expect(@item.errors.full_messages).to include('Eta must be other than 1')
       end
       it 'priceについての情報が必須であること' do
         @item.price = nil
@@ -54,18 +54,18 @@ RSpec.describe Item, type: :model do
       end
       it 'priceは、¥0では出品できないこと' do
         @item.price = 0
-        @item.valid? 
-        expect(@item.errors.full_messages).to include("Price must be greater than 0")
+        @item.valid?
+        expect(@item.errors.full_messages).to include('Price must be greater than 0')
       end
       it 'priceは、¥10,000,000以上では出品できないこと' do
-        @item.price = 1000000000000
-        @item.valid? 
-        expect(@item.errors.full_messages).to include("Price must be less than 10000000")
+        @item.price = 1_000_000_000_000
+        @item.valid?
+        expect(@item.errors.full_messages).to include('Price must be less than 10000000')
       end
       it 'priceは半角数字のみ保存可能であること' do
         @item.price = '１１１１１'
         @item.valid?
-        expect(@item.errors.full_messages).to include("Price is not a number")
+        expect(@item.errors.full_messages).to include('Price is not a number')
       end
     end
   end
