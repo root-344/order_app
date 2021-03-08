@@ -64,6 +64,7 @@
   color: #FFF;
   margin: 20px 0px;
   padding: 2vh 10vw;
+  border-radius: 20px;
 }
 
 .or-text {
@@ -77,6 +78,7 @@
   color: black;
   margin: 20px 0px;
   padding: 2vh 10vw;
+  border-radius: 20px;
 }
 
 .item-explain-box {
@@ -124,9 +126,6 @@
   margin-right: 20px;
 }
 
-.favorite-star-icon {
-  margin-right: 5px;
-}
 
 .report-btn {
   border-radius: 40px;
@@ -150,19 +149,28 @@
 
 .comment-box {
   width: 40vw;
-  background-color: white;
   margin: 5vh 0;
   text-align: center;
-  border: 2px solid black;
+  justify-content: center;
 }
 
 .comment-text {
   width: 100%;
   height: 100px;
   padding: 10px;
-  border-bottom: solid 2px black;
+  border: solid 2px orange;
   resize: none;
+  border-radius: 20px;
+}
 
+.comments {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  border: solid 1px orange;
+  background-color: white;
+  border-radius: 20px;
+  text-align:left
 }
 
 .comment-warn {
