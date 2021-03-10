@@ -1,14 +1,55 @@
 .second-header {
   width: 100vw;
   min-width: 500px;
-  height: 130px;
+  height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.second-logo {
-  width: 185px;
-  height: 49px;
-  border: 5px double orange;
+.top-page {
+  text-decoration: none;
+  margin-left: 3vw;
+  color: white;
+  font-size: 30px;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+}
+.second-search-form {
+  position: absolute;
+  top: 25%;
+  left: 52%;
+  transform: translate(-50%,-50%);
+  background: aquamarine;
+  height: 60px;
+  border-radius: 60px;
+  padding: 10px;
+}
+.second-search-form:hover>.second-input-box {
+  width: 400px;
+}
+
+.second-input-box {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: #ffffff;
+  font-size: 16px;
+  transition: .4s;
+  line-height: 40px;
+  width: 0px;
+}
+
+.second-search-icon {
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: .3s;
 }
