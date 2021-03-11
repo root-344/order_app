@@ -9,20 +9,22 @@
 
 .top-page {
   text-decoration: none;
-  margin-left: 3vw;
+  margin-bottom: 3vw;
   color: white;
   font-size: 30px;
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
 }
 .second-search-form {
+  display: flex;
   position: absolute;
-  top: 25%;
-  left: 52%;
+  top: 21%;
+  left: 51%;
   transform: translate(-50%,-50%);
   background: aquamarine;
   height: 60px;
   border-radius: 60px;
   padding: 10px;
+  border: 1px double black;
 }
 .second-search-form:hover>.second-input-box {
   width: 400px;
@@ -34,9 +36,9 @@
   outline: none;
   float: left;
   padding: 0;
-  color: #ffffff;
+  color: black;
   font-size: 16px;
-  transition: .4s;
+  transition: .3s;
   line-height: 40px;
   width: 0px;
 }
