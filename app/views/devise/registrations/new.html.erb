@@ -1,8 +1,7 @@
-
 <%= form_with model: @user, url: user_registration_path, class: 'registration-main', id: 'new_user', class: 'new_user', local: true do |f| %>
 <div class='form-wrap'>
   <div class='form-header'>
-   <%= render "shared/second-header" %>
+   <%= render "shared/third-header" %>
   </div>
 
   <%= render 'shared/error_messages', model: f.object %>
