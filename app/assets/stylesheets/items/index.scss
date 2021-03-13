@@ -30,14 +30,14 @@ a {
 }
 
 .item-lists {
-  width: 100vw;
+  width: 37vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .item-lists>.list {
-  width: 20vw;
+  width: 37vw;
   padding: 1vw;
   background-color: #FFF;
 }
@@ -45,12 +45,11 @@ a {
 
 .item-img-content {
   position: relative;
-  object-fit: cover;
 }
 
 .item-img {
-  width: 100%;
-  height: 100%;
+  width: 33vh;
+  height: 33vh;
   
 }
 
@@ -74,15 +73,14 @@ a {
   background-color: #FFF;
   color: black;
   padding: 1vw;
+  font-size: 20px;
 }
 
 .item-name {
-  font-size: 3vh;
   color: green;
 }
 
 .item-price {
-  font-size: 3vh;
   display: flex;
   justify-content: space-between;
 }
