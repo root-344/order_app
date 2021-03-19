@@ -1,5 +1,8 @@
-<div class="items-search">
+<div class="my-items-search">
    <%= render "shared/second-header" %>
+ <div class="item-user">
+ <%= @store %>さんの投稿一覧
+ </div>
  <div class="items-sell-main">
    <% @items.each do |item| %>
       <%= link_to item_path(item.id) do %>

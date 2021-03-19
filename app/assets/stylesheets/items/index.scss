@@ -30,13 +30,14 @@ a {
 }
 
 .item-lists {
-  width: 37vh;
+  width: 100vw;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
 .item-lists>.list {
-  width: 37vw;
+  width: 37vh;
   padding: 1vw;
   background-color: #FFF;
 }
@@ -49,7 +50,6 @@ a {
 .item-img {
   width: 33vh;
   height: 33vh;
-  
 }
 
 .sold-out {
@@ -72,14 +72,15 @@ a {
   background-color: #FFF;
   color: black;
   padding: 1vw;
-  font-size: 20px;
 }
 
 .item-name {
+  font-size: 3vh;
   color: green;
 }
 
 .item-price {
+  font-size: 3vh;
   display: flex;
   justify-content: space-between;
 }
