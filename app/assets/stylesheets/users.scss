@@ -1,0 +1,24 @@
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.my-items-search {
+  background-color: #f8f8f8;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0, 0;
+  background-image: image-url('farmers-salad-2332580_1920.jpg');
+  background-size: cover;
+  background-position: center;
+
+}
+.item-user {
+  text-decoration: none;
+  margin-bottom: 3vw;
+  color: white;
+  font-size: 30px;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+}
