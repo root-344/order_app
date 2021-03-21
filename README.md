@@ -29,26 +29,38 @@
  ## トップページ（商品一覧画面） 
   ![0de13996683d9abcafd0eb8a83716416](https://user-images.githubusercontent.com/77102175/111909171-8a521380-8a9f-11eb-926d-f918ae8044b1.gif)
 
+ 
+ 
  ## 新規登録動画
   ![0aaf44a9fd9b2896c8329b114d143dbf](https://user-images.githubusercontent.com/77102175/111907422-8f5f9480-8a98-11eb-80a2-04387bfc352e.gif)
 
 
+ 
  ## 商品出品動画
   ![11e022b00026c9a8d2b31e6c871fab1d](https://user-images.githubusercontent.com/77102175/111906981-aa310980-8a96-11eb-91cd-95d69f588cdf.gif)
+
+
 
  ## 詳細表示画面 ・編集・削除画面
   ![6ade9b370618dc884dca3de7ab84b39d](https://user-images.githubusercontent.com/77102175/111907619-802d1680-8a99-11eb-9208-db4af2042cf0.gif)
 
- ## 購入画面
-  
 
+
+ ## 購入画面
+  ![586cddf924e9f2846f62c9166278f95a](https://user-images.githubusercontent.com/77102175/111909840-3563cc80-8aa2-11eb-84c6-fdabfb23170d.gif)
+
+ 
+ 
  ## 検索一覧画面
   ![a9d9e1a3d715f3225e6db5879b1f4d10](https://user-images.githubusercontent.com/77102175/111908003-e0708800-8a9a-11eb-9416-d50610a5f093.gif)
 
+ 
+ 
  ## コメント投稿動画
   ![2cd3f3ae12a7a819dc04881f478e04af](https://user-images.githubusercontent.com/77102175/111907802-427cbd80-8a9a-11eb-96e9-6bb9e3b20fee.gif)
 
 
+ 
  ## マイページ画像
   ![80f2ffb285a1b40b237b8f8c03367ac7](https://user-images.githubusercontent.com/77102175/111908951-8a9ddf00-8a9e-11eb-8a83-9f2aa8a1e3fd.gif)
   
@@ -89,6 +101,7 @@
 # 課題や今後追加したい機能
  ### ・S3機能追加
  ### ・出品機能のカラムの追加
+ ### ・コメント機能を非同期通信化
 
 
 
