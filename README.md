@@ -30,30 +30,28 @@
   ![](https://i.gyazo.com/dd313e12d6cbd0ebfc3a908f42dbf28a.jpg)
 
 
- ## 新規登録画面
-  ![](https://i.gyazo.com/9353dab271e56d90ce34992681a301b4.jpg)
+ ## 新規登録動画
+  ![0aaf44a9fd9b2896c8329b114d143dbf](https://user-images.githubusercontent.com/77102175/111907422-8f5f9480-8a98-11eb-80a2-04387bfc352e.gif)
+
 
  ## 商品出品動画
   ![11e022b00026c9a8d2b31e6c871fab1d](https://user-images.githubusercontent.com/77102175/111906981-aa310980-8a96-11eb-91cd-95d69f588cdf.gif)
 
  ## 詳細表示画面 ・編集・削除画面
-  ![](https://i.gyazo.com/f259456b966403cfa3e5f802c3e90a89.jpg)
-
-  ![](https://i.gyazo.com/dd2ada73ca8153091fac5b4b036d14a1.jpg)
+  ![6ade9b370618dc884dca3de7ab84b39d](https://user-images.githubusercontent.com/77102175/111907619-802d1680-8a99-11eb-9208-db4af2042cf0.gif)
 
  ## 購入画面
   
-  ![](https://i.gyazo.com/c0856102340ae32f9c7cb6ab1cbb485d.jpg)
-
-  ![](https://i.gyazo.com/2a8eefccc20fbd3baafb65df88f73b04.jpg)
-
-  ![](https://i.gyazo.com/65f47e907839dc8a2668db18c8d101b1.jpg)
 
  ## 検索一覧画面
-  ![](https://i.gyazo.com/1e38339f2f9f8c4135f70759c52a4895.jpg)
+  ![a9d9e1a3d715f3225e6db5879b1f4d10](https://user-images.githubusercontent.com/77102175/111908003-e0708800-8a9a-11eb-9416-d50610a5f093.gif)
 
  ## コメント投稿動画
-  ![](https://i.gyazo.com/7e184e31f6bece435d7c20d71fd3c3fd.jpg)
+![2cd3f3ae12a7a819dc04881f478e04af](https://user-images.githubusercontent.com/77102175/111907802-427cbd80-8a9a-11eb-96e9-6bb9e3b20fee.gif)
+
+
+ ## マイページ画像
+  
 
 
 # 工夫したポイント
