@@ -33,6 +33,9 @@
  ## 新規登録画面
   ![](https://i.gyazo.com/9353dab271e56d90ce34992681a301b4.jpg)
 
+ ## 商品出品動画
+  ![](https://i.gyazo.com/11e022b00026c9a8d2b31e6c871fab1d.gif)
+
  ## 詳細表示画面 ・編集・削除画面
   ![](https://i.gyazo.com/f259456b966403cfa3e5f802c3e90a89.jpg)
 
