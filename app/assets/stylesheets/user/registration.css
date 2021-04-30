@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .registration-main {
   width: 100vw;
   min-width: 50vw;
@@ -11,7 +12,7 @@
   width: 100%;
   min-width: 100%;
   padding-bottom: 70px;
-  background-image: url('https://i.gyazo.com/0848a7c609914da39df9c3e7288e87e6.png');
+  background-image: url("https://i.gyazo.com/0848a7c609914da39df9c3e7288e87e6.png");
   background-size: contain;
 }
 
@@ -19,7 +20,7 @@
   width: 100%;
   min-width: 100%;
   padding-bottom: 70px;
-  background-image: url('https://i.gyazo.com/4ad6d20a810549a5f4519dfad5ca652a.jpg');
+  background-image: url("https://i.gyazo.com/4ad6d20a810549a5f4519dfad5ca652a.jpg");
   background-size: cover;
 }
 
@@ -118,7 +119,6 @@
   display: contents;
 }
 
-
 .form-bottom-text {
   font-size: 15px;
   margin-top: 10px;
@@ -130,7 +130,7 @@
   padding-bottom: 50px;
 }
 
-.form-bottom-text>span {
+.form-bottom-text > span {
   color: #0099e8;
   cursor: pointer;
 }

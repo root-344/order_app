@@ -1,5 +1,5 @@
+@charset "UTF-8";
 /* 商品の概要 */
-
 .item-show {
   background-color: #f8f8f8;
   width: 100vw;
@@ -8,10 +8,9 @@
   flex-direction: column;
   align-items: center;
   padding: 0, 0;
-  background-image: url('https://i.gyazo.com/90c2d8dda93a27e4e6c9aa8cd3b0e60f.jpg');
+  background-image: url("https://i.gyazo.com/90c2d8dda93a27e4e6c9aa8cd3b0e60f.jpg");
   background-size: cover;
   background-position: center;
-
 }
 
 .item-box {
@@ -25,7 +24,7 @@
   border: 3px solid black;
 }
 
-.item-box>.name {
+.item-box > .name {
   text-align: center;
   font-weight: bold;
   font-size: 30px;
@@ -35,7 +34,7 @@
   height: 50vh;
   width: 50vw;
   min-height: 50vh;
-  background-color: rgb(205, 202, 202);
+  background-color: #cdcaca;
   object-fit: contain;
 }
 
@@ -46,15 +45,14 @@
   flex-direction: column;
 }
 
-.item-price-box>.item-price {
+.item-price-box > .item-price {
   font-size: 4vh;
   font-weight: bold;
 }
 
-.item-price-box>.item-postage {
+.item-price-box > .item-postage {
   font-size: 20px;
 }
-
 
 .item-red-btn {
   text-align: center;
@@ -90,7 +88,6 @@
   margin-bottom: 30px;
   width: 50vw;
   border: 2px solid black;
-
 }
 
 .detail-item {
@@ -115,7 +112,6 @@
 }
 
 /* /商品の概要 */
-
 .comment-box {
   width: 40vw;
   margin: 5vh 0;
@@ -140,7 +136,7 @@
   border: solid 1px orange;
   background-color: white;
   border-radius: 20px;
-  text-align:left
+  text-align: left;
 }
 
 .comment-warn {
@@ -161,4 +157,3 @@
   border-radius: 100px;
   margin-bottom: 2vh;
 }
-

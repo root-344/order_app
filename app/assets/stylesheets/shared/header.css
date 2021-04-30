@@ -7,7 +7,7 @@
   padding: 20vh 15vw;
   display: flex;
   flex-direction: column;
-  background-image: url('https://i.gyazo.com/90c2d8dda93a27e4e6c9aa8cd3b0e60f.jpg');
+  background-image: url("https://i.gyazo.com/90c2d8dda93a27e4e6c9aa8cd3b0e60f.jpg");
   background-size: cover;
 }
 
@@ -22,14 +22,15 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   background: aquamarine;
   height: 60px;
   border-radius: 60px;
   padding: 10px;
   border: 1px double black;
 }
-.search-form:hover>.input-box {
+
+.search-form:hover > .input-box {
   width: 400px;
 }
 
@@ -71,7 +72,6 @@
 .lists-left {
   display: flex;
   min-width: 200px;
-
 }
 
 .category-list {
@@ -91,7 +91,6 @@
   align-items: flex-end;
 }
 
-
 .user-store {
   text-decoration: none;
   margin-right: 3vw;
@@ -100,7 +99,6 @@
   font-size: 30px;
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
 }
-
 
 .logout {
   text-decoration: none;
@@ -115,7 +113,6 @@
   color: white;
   font-size: 30px;
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
-
 }
 
 .sign-up {
