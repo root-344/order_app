@@ -113,6 +113,7 @@
 @media (max-width: 599px) {
   .top-page-header {
     width: 100vw;
+    height: 20vh;
     padding: 20vh 15vw;
     display: flex;
     flex-direction: column;
@@ -126,7 +127,7 @@
   }
   .search-form {
     display: flex;
-    background: aquamarine;
+    background: turquoise;
     height: 60px;
     padding: 10px;
     border: 1px double black;
@@ -139,9 +140,8 @@
     padding: 0;
     color: black;
     font-size: 16px;
-    transition: .4s;
     line-height: 40px;
-    width: 50vw;
+    width: 60vw;
   }
   .search-icon {
     float: right;
@@ -179,6 +179,7 @@
     display: flex;
     list-style: none;
     width: 70vw;
+    margin: 10px auto;
   }
   .user-store {
     text-decoration: none;
