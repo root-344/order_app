@@ -1,3 +1,4 @@
+@media (min-width:600px) {
 .purchase-btn {
   width: 120px;
   background: orange;
@@ -20,12 +21,13 @@
 .purchase-btn-icon {
   width: 60%;
 }
-
+}
 @media(max-width: 599px){
   .purchase-btn {
     width: 150px;
-    background: orange;
+    background-color:rgba(255, 246, 127, 0.5);
     text-align: center;
+    border: 3px solid black;
     border-radius: 70px;
     bottom: 32px;
     right: 32px;
@@ -35,9 +37,10 @@
   }
   
   .purchase-btn-text {
-    color: #fff;
+    color: black;
     display: block;
-    font-size: 18px;
+    font-size: 24px;
+    font-style: italic;
     text-decoration: none;
     margin-bottom: 5px;
   }
