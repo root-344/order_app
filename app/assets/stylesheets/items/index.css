@@ -105,9 +105,9 @@ a {
   }
   .list {
     width: 100%;
-    padding: 1vw;
     margin-bottom: 3px;
-    background-color: lightgray;
+    background-color: white;
+    border: 5px double black;
   }
   .item-img-content {
     position: relative;
@@ -131,7 +131,7 @@ a {
     font: bold;
   }
   .item-info {
-    background-color: lightgray;
+    background-color: white;
     color: black;
     padding: 1vw;
   }
