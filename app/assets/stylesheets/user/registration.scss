@@ -228,28 +228,15 @@
   .field_with_errors {
     display: contents;
   }
-  
-  .register-btn {
+    .register-red-btn {
     width: 120px;
     height: 120px;
     background-color:rgba(0, 153,255, 0.5);
     text-align: center;
     border: 3px solid black;
     border-radius: 70px;
-    bottom: 32px;
-    right: 32px;
-    position: fixed;
-    padding: 15px;
-  }
-  .register-red-btn {
-    width: 120px;
-    height: 120px;
-    background-color:rgba(0, 153,255, 0.5);
-    text-align: center;
-    border: 3px solid black;
-    border-radius: 70px;
-    bottom: 32px;
-    right: 32px;
+    bottom: 15px;
+    right: 15px;
     position: fixed;
     padding: 15px;
     font-size: 20px;
