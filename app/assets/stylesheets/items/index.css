@@ -105,9 +105,12 @@ a {
   }
   .list {
     width: 100%;
-    margin-bottom: 3px;
+    margin-bottom: 10px;
     background-color: white;
     border: 5px double black;
+  }
+  .list:last-child {
+    margin-bottom: 30px;
   }
   .item-img-content {
     position: relative;
@@ -144,5 +147,9 @@ a {
     font-size: 3vh;
     display: flex;
     justify-content: space-between;
+  }
+  .page {
+    font-style: initial;
+    font-size: 30px;
   }
 }
