@@ -1,6 +1,5 @@
+@charset "UTF-8";
 /* border-bottom: 1px solid #eee; */
-
-
 .items-sell-contents {
   font-family: "Source Sans Pro", Helvetica, Arial, "æ¸¸ã‚´ã‚·ãƒƒã‚¯ä½“", "YuGothic", "ãƒ¡ã‚¤ãƒªã‚ª", "Meiryo", sans-serif;
   font-size: 14px;
@@ -8,8 +7,8 @@
   align-items: center;
   justify-content: center;
   min-width: 400px;
-  background-image: url('https://i.gyazo.com/90c2d8dda93a27e4e6c9aa8cd3b0e60f.jpg');
-  background-size: cover; 
+  background-image: url("https://i.gyazo.com/90c2d8dda93a27e4e6c9aa8cd3b0e60f.jpg");
+  background-size: cover;
   background-attachment: fixed;
 }
 
@@ -54,7 +53,6 @@
 }
 
 /* /共通 */
-
 /* 出品画像 */
 .img-upload {
   display: flex;
@@ -62,6 +60,7 @@
   flex-wrap: wrap;
   padding: 2vh 0;
 }
+
 .images {
   width: 20vw;
   height: 20vh;
@@ -73,12 +72,11 @@
   min-width: 250px;
 }
 
-.click-upload>p {
+.click-upload > p {
   margin-bottom: 15px;
 }
 
 /* /出品画像 */
-
 /* 商品名と商品説明 */
 .new-items {
   padding: 2vh 0;
@@ -98,7 +96,6 @@
 }
 
 /* /商品名と商品説明 */
-
 /* 商品の詳細など */
 .items-detail {
   display: flex;
@@ -106,7 +103,7 @@
   padding: 2vh 0;
 }
 
-.items-detail>.form {
+.items-detail > .form {
   width: 300px;
   padding: 2vh 0;
 }
@@ -114,8 +111,8 @@
 .select-box {
   margin: 2vh 0;
 }
-/* /商品の詳細など */
 
+/* /商品の詳細など */
 /* 販売価格 */
 .sell-price {
   display: flex;
@@ -148,7 +145,6 @@
 }
 
 /* /販売価格 */
-
 /* 下部ボタン */
 .sell-btn-contents {
   width: 100%;
@@ -174,4 +170,3 @@
   text-decoration: none;
   border-radius: 60px;
 }
-
