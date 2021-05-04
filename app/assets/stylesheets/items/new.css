@@ -1,15 +1,15 @@
 @charset "UTF-8";
 /* border-bottom: 1px solid #eee; */
 .items-sell-contents {
-  background-color: #f5f5f5;
   font-family: "Source Sans Pro", Helvetica, Arial, "æ¸¸ã‚´ã‚·ãƒƒã‚¯ä½“", "YuGothic", "ãƒ¡ã‚¤ãƒªã‚ª", "Meiryo", sans-serif;
   font-size: 14px;
   display: flex;
   align-items: center;
-  flex-direction: column;
-  min-width: 500px;
+  justify-content: center;
+  min-width: 400px;
   background-image: url("https://i.gyazo.com/90c2d8dda93a27e4e6c9aa8cd3b0e60f.jpg");
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .items-sell-main {
@@ -17,6 +17,7 @@
   width: 70vw;
   min-width: 450px;
   padding: 10vh 15vw;
+  margin-top: 20px;
   margin-bottom: 50px;
   border: solid 3px black;
 }
