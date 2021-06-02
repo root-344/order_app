@@ -1,1 +1,1 @@
-.second-header{width:100vw;height:10vh;display:flex;align-items:center;justify-content:center;background-color:rgba(135,206,250,0.7)}.top-page{text-decoration:none;margin:3vw auto;color:white;font-size:30px;text-shadow:0 0 5px rgba(0,0,0,0.9)}
+.second-header{width:100vw;height:10vh;display:flex;align-items:center;justify-content:center;background-color:rgba(135,206,250,0.7);position:sticky;top:0}.top-page{text-decoration:none;margin:3vw auto;color:white;font-size:30px;text-shadow:0 0 5px rgba(0,0,0,0.9)}
