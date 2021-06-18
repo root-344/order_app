@@ -5,6 +5,8 @@
   align-items: center;
   justify-content: center;
   background-color: rgba(135, 206, 250, 0.7);
+  position: sticky;
+  top: 0;
 }
 
 .top-page {

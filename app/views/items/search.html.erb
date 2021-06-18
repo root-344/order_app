@@ -1,12 +1,12 @@
-<div class="items-search">
-   <%= render "shared/second-header" %>
- <div class="items-sell-main">
+<%= render "shared/third-header" %>
+<div class="items-search"> 
+ <div class="items-search-main">
    <% @items.each do |item| %>
       <%= link_to item_path(item.id) do %>
         <div class='item-img-content'>
           <%= image_tag item.image, class: "item-img" %>
         </div>
-        <div class='item-info'>
+        <div class='search-info'>
           <h3 class='item-name'>
             <%= "#{item.product}" %>
           </h3>
