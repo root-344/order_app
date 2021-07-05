@@ -69,9 +69,9 @@
   </div>
   <div class="comment-box">
    <% if user_signed_in? %>
-    <%= form_with(model: [@item, @comment], local: true) do |form| %>
-        <%= form.text_area :text, placeholder: "コメントする", class: 'comment-text', rows: "2" %>
-        <%= form.submit "コメント送信", class: 'comment-btn' %>
+    <%= form_with(model: [@item, @comment], local: true, id:"new-comment") do |form| %>
+        <%= form.text_area :text, class: 'comment-text', rows: "2" %>
+        <%= form.submit "コメント送信", class: 'comment-btn', value: "コメントする" %>
     <% end %>
    <% else %>
     <strong><p>※※ コメントの投稿には新規登録/ログインが必要です ※※</p>
