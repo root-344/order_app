@@ -93,6 +93,7 @@
     .item-box>.item-info {
       width: 50%;
       height: 100%;
+      overflow: auto;
     }
 
       .item-price-box {
@@ -162,7 +163,7 @@
         margin-top: 30px;
         width: 100%;
         border: 2px solid black;
-
+        overflow: auto;
       }
 
       .detail-item {
@@ -171,6 +172,7 @@
         border: 1px solid #dedede;
         font-size: 18px;
         text-align: center;
+        overflow: auto;
       }
 
       .detail-value {
@@ -203,6 +205,7 @@
     resize: none;
     border-radius: 20px;
     outline: none;
+    overflow: auto;
   }
 
   .comments {
@@ -212,7 +215,8 @@
     border: solid 1px orange;
     background-color: white;
     border-radius: 20px;
-    text-align:left
+    text-align:left;
+    overflow: auto;
   }
 
   .comment-warn {
@@ -401,39 +405,38 @@
       /* /商品の概要 */
     
       .comment-box {
-        width: 40vw;
-        margin: 5vh 0;
+        width: 100vw;
+        margin: 20px 0;
         text-align: center;
-        justify-content: center;
       }
     
       .comment-text {
-        width: 100%;
+        width: 90%;
         height: 100px;
         padding: 10px;
         border: solid 2px orange;
-        resize: none;
         border-radius: 20px;
+        resize: none;
         outline: none;
+        overflow: auto;
       }
     
       .comments {
-        width: 100%;
+        width: 95%;
         height: 200px;
-        padding: 10px;
+        max-height: 300px;
+        margin: 10px 0;
         border: solid 1px orange;
         background-color: white;
         border-radius: 20px;
-        text-align:left
+        overflow: auto;
+        resize: none;
       }
-    
-      .comment-warn {
-        padding: 10px;
-        font-size: 14px;
-        margin: 10px 0px;
-        text-align: left;
+      .comments p {
+        text-align:left;
+        padding: 10px 5px;
       }
-    
+        
       .comment-btn {
         line-height: 48px;
         background-color: #3CCACE;
