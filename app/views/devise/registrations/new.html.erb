@@ -1,6 +1,8 @@
 <%= render "shared/third-header" %>
+
 <%= form_with model: @user, url: user_registration_path, class: 'registration-main', id: 'new_user', local: true do |f| %>
 <div class='form-wrap-regist'>
+  
   <%= render 'shared/error_messages', model: f.object %>
  
   <div class="form-group">
@@ -65,5 +67,5 @@
   </div>
 </div>
 <% end %>
-<footer>
-</footer>
+
+<%= render "shared/footer" %>

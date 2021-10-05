@@ -1,10 +1,11 @@
+<%= render "shared/second-header" %>
+
 <div class="my-items-search">
-   <%= render "shared/second-header" %>
- <div class="item-user">
- <%= @store %>さんの投稿一覧
- </div>
- <div class="items-sell-main">
-   <% @items.each do |item| %>
+  <div class="item-user">
+    <%= @store %>さんの商品一覧
+  </div>
+  <div class="items-sell-main">
+    <% @items.each do |item| %>
       <%= link_to item_path(item.id) do %>
         <div class='item-img-content'>
           <%= image_tag item.image, class: "item-img" %>
@@ -18,8 +19,8 @@
           </div>
         </div>
       <% end %>
-   <% end %>
+    <% end %>
   </div>
 </div>
-<footer>
-</footer>
+
+<%= render "shared/footer" %>

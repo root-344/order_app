@@ -1,55 +1,61 @@
 <%= render "shared/header" %>
+
+<%# 商品一覧 %>
 <div class='main'>
-  <%# 商品一覧 %>
   <div class='item-contents'>
     <h2 class='title'>商品一覧</h2>
     <ul class='item-lists'>
-    <% @items.each do |item| %>
-      <li class='list'>
-        <%= link_to item_path(item.id) do %>
-        <div class='item-img-content'>
-          <%= image_tag item.image, class: "item-img" %>
-          <% if item.order.present? %>
-            <div class='sold-out'>
-              <span>売り切れ!!</span>
-            </div>
-          <% end %>
-        </div>
-        <div class='item-info'>
-          <h3 class='item-name'>
-            <%= "#{item.product}" %>
-          </h3>
-          <div class='item-price'>
-            <span><%= "#{item.price}" %>円<br><%= "#{item.shipping_fee.name}" %></span>
+      <% @items.each do |item| %>
+        <li class='list'>
+          <%= link_to item_path(item.id) do %>
+          <div class='item-img-content'>
+            <%= image_tag item.image, class: "item-img" %>
+            <% if item.order.present? %>
+              <div class='sold-out'>
+                <span>売り切れ!!</span>
+              </div>
+            <% end %>
           </div>
-        </div>
-        <% end %>
-      </li>
-    <% end %>
-      <% if @items.length == 0 %>
-       <li class='list'>
-        <%= link_to '#' do %>
-        <%= image_tag "https://tech-master.s3.amazonaws.com/uploads/curriculums/images/Rails1-4/sample.jpg", class: "item-img" %>
-         <div class='item-info'>
-          <h3 class='item-name'>
-              商品を出品してださい。
-          </h3>
+          <div class='item-info'>
+            <h3 class='item-name'>
+              <%= "#{item.product}" %>
+            </h3>
             <div class='item-price'>
-              <span>99999999円<br>(税込み)</span>
+              <span><%= "#{item.price}" %>円<br><%= "#{item.shipping_fee.name}" %></span>
             </div>
-         </div> 
-        <% end %>
-       </li>
+          </div>
+          <% end %>
+        </li>
+      <% end %>
+      <% if @items.length == 0 %>
+        <li class='list'>
+          <%= link_to '#' do %>
+          <%= image_tag "https://tech-master.s3.amazonaws.com/uploads/curriculums/images/Rails1-4/sample.jpg", class: "item-img" %>
+            <div class='item-info'>
+              <h3 class='item-name'>
+                  商品を出品してださい。
+              </h3>
+              <div class='item-price'>
+                <span>99999999円<br>(税込み)</span>
+              </div>
+            </div> 
+          <% end %>
+        </li>
       <% end %>
     </ul>
+    
     <%= paginate @items, class: 'page' %>
+ 
   </div>
-  <%# /商品一覧 %>
 </div>
+<%# /商品一覧 %>
+
 <%= link_to(new_item_path, class: 'purchase-btn') do %>
   <span class='purchase-btn-text'>出品する</span>
   <%= image_tag 'トマトのフリーアイコン.png' , size: '185x50' ,class: "purchase-btn-icon" %>
 <% end %>
+
 <% time = Time.now # Thu Dec 24 00:00:00 +0900 2011  %>
 <%= time.strftime('%Y年%m月%d日 %H:%M:%S') %>
+
 <%= render "shared/footer" %>

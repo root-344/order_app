@@ -1,13 +1,12 @@
 <%# CSS・・・assets/stylesheets/shared/header.css %>
 <header class='top-page-header'> 
   <div class='search-bar-contents'>
-   <%= form_with(url: search_items_path, local: true, method: :get, class: "search-form") do |form| %>
-      <%= form.text_field :keyword, placeholder: "キーワードから探す", class: "input-box" %>
-      <%= form.submit "検索", class: "search-icon" %>
-   <% end %>
+    <%= form_with(url: search_items_path, local: true, method: :get, class: "search-form") do |form| %>
+        <%= form.text_field :keyword, placeholder: "キーワードから探す", class: "input-box" %>
+        <%= form.submit "検索", class: "search-icon" %>
+    <% end %>
   </div> 
   <div class='nav'>
-  
     <ul class='lists-right'>
       <% if user_signed_in? %>
         <li><%= link_to "#{current_user.store}さん", "/users/#{current_user.id}", class: "user-store" %></li>

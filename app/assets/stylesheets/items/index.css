@@ -10,11 +10,11 @@ a {
 /* 商品一覧 */
 @media (min-width: 600px) {
   .item-contents {
-    background-color: #FFF;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 10vh 0;
+    background-color: #FFF;
   }
   .item-contents > .title {
     font-size: 5vh;
