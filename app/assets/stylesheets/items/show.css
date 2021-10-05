@@ -182,7 +182,7 @@
     padding: 10px;
     border: solid 2px orange;
     resize: none;
-    border-radius: 20px;
+    border-radius: 10px;
     outline: none;
     overflow: auto;
   }
@@ -192,7 +192,7 @@
     padding: 10px;
     border: solid 1px orange;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 10px;
     text-align: left;
     overflow: auto;
   }
@@ -368,7 +368,7 @@
     height: 100px;
     padding: 10px;
     border: solid 2px orange;
-    border-radius: 20px;
+    border-radius: 10px;
     resize: none;
     outline: none;
     overflow: auto;
@@ -377,10 +377,10 @@
     width: 95%;
     height: 200px;
     max-height: 300px;
-    margin: 10px 0;
-    border: solid 1px orange;
+    margin: 10px auto;
+    border: 1px solid orange;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 10px;
     overflow: auto;
     resize: none;
   }
