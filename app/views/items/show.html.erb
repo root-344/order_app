@@ -73,21 +73,6 @@
       <%= form_with(model: [@item, @comment], local: true, id:"new-comment") do |form| %>
         <%= form.text_area :text, class: 'comment-text', rows: "2" %>
         <%= form.submit "コメント送信", class: 'comment-btn', value: "コメントする" %>
-<<<<<<< Updated upstream
-    <% end %>
-   <% else %>
-    <strong><p>※※ コメントの投稿には新規登録/ログインが必要です ※※</p>
-      </strong>
-   <% end %>
-    <div class="comments">
-      <h4>＜コメント一覧＞</h4>
-      <% @comments.each do |comment| %>
-        <p>
-          <strong><%= "#{comment.user.store}" %>:</strong>
-          <%= "#{comment.text}" %>
-        </p>
-=======
->>>>>>> Stashed changes
       <% end %>
     <% else %>
       <strong>
